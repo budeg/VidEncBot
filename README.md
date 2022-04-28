@@ -13,23 +13,26 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `SUDO_USERS` - Chat identifier of the sudo user. For multiple users use space as seperator.
 
 **Encode Settings**
-- `RESOLUTION` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
-- `PRESET` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
-- `TUNE` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `RESOLUTION` - Keep 360,480,720,1080
+- `PRESET` - Keep f (fast),vf (Veryfast),sf (Superfast)
+- `TUNE` - Keep film or animation
 - `AUDIO` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
-- `CRF` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
+- `CRF` - Keep 28
 
 **Optional**
-- `DOC_THUMB` - (Optional) Thumbnail for document
+- `DOC_THUMB` - (Optional) Thumbnail for document 
 - `UPLOAD_AS_DOC` - (Optional) Uploads Video as doc if `1` else `0`.
-- `DOWNLOAD_DIR` - (Optional) Temporary download directory to keep downloaded files.
+- `DOWNLOAD_DIR` - 
 - `ENCODE_DIR` - (Optional) Temporary encode directory to keep encoded files.
 
 ### Configuring Encoding Format
 To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg.py)
 
-### Deployment
-With python3.7 or later.
+### Deploy
+Deploy your bot on `Okteto`
+  
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
+
 ```
 pip3 install --no-cache-dir -r requirements.txt
 bash run.sh
