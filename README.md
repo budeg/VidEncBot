@@ -16,14 +16,14 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `RESOLUTION` - Keep 360,480,720,1080
 - `PRESET` - Keep f (fast),vf (Veryfast),sf (Superfast)
 - `TUNE` - Keep film or animation
-- `AUDIO` - [Click Here](https://weeb-zone.blogspot.com/p/encode-telegram-bot-guide.html)
-- `CRF` - Keep 28
+- `AUDIO` - Keep opus or aac
+- `CRF` - Keep anything from 25 to 30
 
 **Optional**
 - `DOC_THUMB` - (Optional) Thumbnail for document 
 - `UPLOAD_AS_DOC` - (Optional) Uploads Video as doc if `1` else `0`.
-- `DOWNLOAD_DIR` - 
-- `ENCODE_DIR` - (Optional) Temporary encode directory to keep encoded files.
+- `DOWNLOAD_DIR` - VideoEncoder/utils/downloads/
+- `ENCODE_DIR` - VideoEncoder/utils/encodes/
 
 ### Configuring Encoding Format
 To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg.py)
