@@ -1,0 +1,19 @@
+services:
+  drone-vc-p:
+    build: .
+    environment:
+      API_ID: $API_ID  
+      API_HASH: $API_HASH  
+      BOT_TOKEN: $BOT_TOKEN 
+      SUDO_USERS: $SUDO_USERS
+      RESOLUTION: $RESOLUTION
+      PRESET: $PRESET
+      TUNE: $TUNE
+      AUDIO: $AUDIO
+      CRF: $CRF
+      DOC_THUMB: $DOC_THUMB
+      UPLOAD_AS_DOC: $UPLOAD_AS_DOC
+      DOWNLOAD_DIR: $DOWNLOAD_DIR
+      ENCODE_DIR: $ENCODE_DIR
+      cpu: 1000m
+      memory: 3Gi
