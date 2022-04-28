@@ -1,11 +1,10 @@
 # VideoEncoderBot
  a telegram bot for compressing/encoding videos in h264 format.
 <p align="center">
-  <img src="./LOCAL/Wavy_Lst-14_Single-06.jpg" alt="VideoConvertor poster">
+  <img src="./LOCAL/Wavy_Lst-14_Single-06.jpg" alt="VideoEncoder poster">
 </p>
 <h1 align="center">
-  <b>ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴏʀ</b>
-</h1>
+ 
 
 ### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
