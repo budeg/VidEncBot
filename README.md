@@ -1,4 +1,4 @@
-# Video-Encoder-Bot
+# VideoEncoderBot
  a telegram bot for compressing/encoding videos in h264 format.
 
 ### Configuration
@@ -40,8 +40,8 @@ bash run.sh
 
 ### Credits
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
-- [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
-- [lazyleech](https://github.com/Lazy-Leecher/lazyleech) for thumbnail etc.
+- [viperadnan-git](
+ttps://github.com/viperadnan-git/video-encoder-bot) for queue etc.
 
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
