@@ -102,6 +102,7 @@ LOGGER = logging.getLogger(__name__)
 
 app = Client(
     "VideoEncoder",
+    from telegram import ParseMode
     bot_token=bot_token,
     api_id=api_id,
     api_hash=api_hash,
