@@ -13,7 +13,7 @@
 #
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+ 
 import asyncio
 import mimetypes
 
@@ -21,10 +21,13 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from .. import sudo_users
 
-start = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://t.me/ASimpleKid"),
-InlineKeyboardButton("Source", url="https://github.com/NikhilBakugo/Video-Encoder_Bot")]
+output = InlineKeyboardMarkup([
+    [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
+     InlineKeyboardButton("Source", url="https://github.com/WeebTime/Video-Encoder-Bot")]
 ])
+
+start = InlineKeyboardMarkup([
+    [InlineKeyboardButton("Developer", url="https://t.me/ASimpleKid")]
      
 async def check_user(message):
     try:
