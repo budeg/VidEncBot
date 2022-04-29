@@ -18,7 +18,6 @@ import logging
 from os import supports_dir_fd
 from pyrogram import idle
 from . import app, sudo_users
-from .helper.ext_utils.fs_utils import restart
 
 async def main():
     await app.start()
@@ -27,21 +26,3 @@ async def main():
     await app.stop()
 
 app.loop.run_until_complete(main())
-
-
-def restart(update, context):
-    restart_message = sendMessage("Restarting...", context.bot, update.message)
-    if Interval:
-        Interval[0].cancel()
-    alive.kill()
-    clean_all()
-    srun(["pkill", "-9", "-f", "gunicorn|aria2c|qbittorrent-nox|megasdkrest"])
-    srun(["python3", "update.py"])
-    with open(".restartmsg", "w") as f:
-        f.truncate(0)
-        f.write(f"{restart_message.chat.id}\n{restart_message.message_id}\n")
-    osexecl(executable, executable, "-m", "bot")
-    restart_handler = CommandHandler(BotCommands.RestartCommand, restart,
-                                     filters=CustomFilters.owner_filter | CustomFilters.sudo_user, run_async=True)
-
-dispatcher.add_handler(restart_handler)
