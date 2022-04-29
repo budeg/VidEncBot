@@ -53,4 +53,4 @@ start_handler = CommandHandler(BotCommands.StartCommand, start, run_async=True)
                                      filters=CustomFilters.owner_filter | CustomFilters.sudo_user, run_async=True)
 dispatcher.add_handler(start_handler)
     dispatcher.add_handler(ping_handler)
-    dispatcher.add_handler(restart_handler
+    dispatcher.add_handler(restart_handler)
