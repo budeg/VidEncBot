@@ -27,13 +27,8 @@ output = InlineKeyboardMarkup([
 ])
 
 start = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
-     InlineKeyboardButton("Source", url="https://github.com/WeebTime/Video-Encoder-Bot")],
-    [InlineKeyboardButton("Support", url="https://t.me/joinchat/4PQUG5J6aRI3NGQ1"),
-     InlineKeyboardButton("Channel", url="https://t.me/WeebZoneIndia")]
-])
-
-
+    [InlineKeyboardButton("Developer", url="https://t.me/ASimpleKid")]
+     
 async def check_user(message):
     try:
         user_id = message.from_user.id
