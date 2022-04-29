@@ -21,13 +21,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from .. import sudo_users
 
-output = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://github.com/WeebTime/"),
-     InlineKeyboardButton("Source", url="https://github.com/WeebTime/Video-Encoder-Bot")]
-])
-
 start = InlineKeyboardMarkup([
-    [InlineKeyboardButton("Developer", url="https://t.me/ASimpleKid")]
+    [InlineKeyboardButton("Developer", url="https://t.me/ASimpleKid"),
+InlineKeyboardButton("Source", url="https://github.com/NikhilBakugo/Video-Encoder_Bot")]
+])
      
 async def check_user(message):
     try:
