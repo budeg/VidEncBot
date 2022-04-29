@@ -42,7 +42,6 @@ async def help_message(app, message):
 • /vset - View Settings.
 • /sthumb - Save Thumb
 • /dthumb - Clear Thumb.
-• /restrat - You know.
 • /logs - check logs."""
     await message.reply(text=text, reply_markup=output)
 
