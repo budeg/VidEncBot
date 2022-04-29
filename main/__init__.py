@@ -106,5 +106,6 @@ app = Client(
     api_id=api_id,
     api_hash=api_hash,
     plugins={'root': os.path.join(__package__, 'plugins')},
-    parse_mode="HTML",
-    sleep_threshold=30)
+    sleep_threshold=30,
+parse_mode=ParseMode.HTML
+        )
