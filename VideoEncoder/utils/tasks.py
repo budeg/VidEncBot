@@ -69,8 +69,8 @@ async def handle_upload(new_file, message, msg):
     filename = os.path.basename(new_file)
     duration = get_duration(new_file)
     thumb = os.path.join(str(user_id), 'thumbnail.jpg')
-    height = 720
-    width = 1280
+    height = 480
+    width = 854
     if not os.path.isfile(thumb):
         thumb = get_thumbnail(new_file, download_dir, duration / 4)
     # Upload File
