@@ -18,6 +18,7 @@ import logging
 from os import supports_dir_fd
 from pyrogram import idle
 from . import app, sudo_users
+from .helper.ext_utils.fs_utils import restart
 
 async def main():
     await app.start()
