@@ -30,8 +30,6 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `DOWNLOAD_DIR` - VideoEncoder/utils/downloads/
 - `ENCODE_DIR` - VideoEncoder/utils/encodes/
 
-### Configuring Encoding Format
-To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg.py)
 
 ### Deploy
 Deploy your bot on `Heroku`
@@ -51,8 +49,7 @@ bash run.sh
 
 ### Credits
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
-- [viperadnan-git](
-ttps://github.com/viperadnan-git/video-encoder-bot) for queue etc.
+- [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
 
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
