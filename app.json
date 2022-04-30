@@ -1,76 +1,67 @@
 {
-    "name": "Video-Encoder-Bot",
-    "description": "A stable and Fast telegram video Encoder bot which can encode videos.", 
- "logo": "",
-    "keywords": [
-        "Best",
-        "telegram",
-        "encoder",
-        "bot"
-    ],
-    "repository": "https://github.com/NikhilBakugo/Video-Encoder-Bot",
-    "website": "",
-    "success_url": "https://t.me/AniVoid",
+    "name": "The-Video-Encoder-Bot",
+    "repository": "https://github.com/tellybots/The-Encoder-Bot",
     "env": {
-        "API_HASH": {
-            "description": "Your API HASH from my.telegram.org",
-            "value": ""
-        },
         "API_ID": {
-            "description": "Your API ID from my.telegram.org",
-            "value": ""
+            "description": "",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "",
+            "required": "True"
         },
         "BOT_TOKEN": {
-            "description": "Bot token, get it from @BotFather.",
-            "value": ""
+            "description": "",
+            "required": "True"
         },
         "SUDO_USERS": {
-            "description": "Bot owner's UserID.",
-            "value": ""
+            "description": "",
+            "required": "False"
         },
-        "HEROKU_API": {
-            "description": "Your heroku app name(optional, add only if you want to restart directly from tg.",
-            "value": "",
-            "required": false
+        "OWNER_ID": {
+            "description": "Bot Owner UserID"
+    
+        "PRESET": {
+            "description": "sf",
+            "required": "True"
         },
-        "HEROKU_APP_NAME": {
-            "description": "Your heroku api, you can get it from heroku account settings(optional, add only if you want to restart directly from tg.",
-            "value": "",
-            "required": false
+        "TUNE": {
+            "description": "film",
+            "required": "True"
         },
-        "LOG_CHANNEL": {
-            "description": "Log channel username, without using '@'.",
-            "value": ""
+        "AUDIO": {
+            "description": "opus",
+            "required": "True"
         },
-        "LOG_ID": {
-            "description": "Log channel `ID` (Should be Public)",
-            "value": ""
+        "UPLOAD_AS_DOC": 
+            "description": "0",
+            "required": "True"
         },
-        "ACCESS_CHANNEL": {
-            "description": "Private group id to spy users.(Should be public group)",
-            "value": ""
+        "DOWNLOAD_DIR": {
+            "description": "VideoEncoder/utils/downloads/",
+            "required": "True"
         },
-        "MONGODB_URI": {
-            "description": "Your mongodb url here.",
-            "value": ""
+        "ENCODE_DIR": {
+            "description": "VideoEncoder/utils/encodes/",
+            "required": "True"
         },
-        "FORCESUB": {
-            "description": "Channel id to which u want user be force subcribed.(Should be public)",
-            "value": ""
+        "RESOLUTION": {
+            "description": "480",
+            "required": "True"
         },
-        "FORCESUB_UN": {
-            "description": "Forcesub channel's username.",
-            "value": ""
+        "PRESET": {
+            "description": "vf",
+            "required": "True"
         },
-        "BOT_UN": {
-            "description": "Username of your bot.",
-            "value": ""
+        "CRF": {
+            "description": "30",
+            "required": "True"
         }
-    },
+  },
    "addons": [{
     "plan": "heroku-postgresql"
-    }],
-     "buildpacks": [
+  }],
+   "buildpacks": [
     {
       "url": "heroku/python"
     },
