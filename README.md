@@ -34,9 +34,9 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg.py)
 
 ### Deploy
-Deploy your bot on `Okteto`
+Deploy your bot on `Heroku`
   
-[![Develop on Okteto]()](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNikhilBakugo%2Fffmpeg-videoencoder&template=https%3A%2F%2Fgithub.com%2Froyal78%2Fffmpeg-videoencoder%2F)
+[![Develop on Heroku](Heroku)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNikhilBakugo%2Fffmpeg-videoencoder&template=https%3A%2F%2Fgithub.com%2Froyal78%2Fffmpeg-videoencoder%2F)
 
 ```
 pip3 install --no-cache-dir -r requirements.txt
