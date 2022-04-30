@@ -36,7 +36,7 @@ To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg
 ### Deploy
 Deploy your bot on `Okteto`
   
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
+[![Develop on Okteto]()](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FNikhilBakugo%2Fffmpeg-videoencoder&template=https%3A%2F%2Fgithub.com%2Froyal78%2Fffmpeg-videoencoder%2F)
 
 ```
 pip3 install --no-cache-dir -r requirements.txt
