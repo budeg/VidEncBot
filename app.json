@@ -20,7 +20,7 @@
         },
         "OWNER_ID": {
             "description": "Bot Owner UserID"
-    
+        },
         "PRESET": {
             "description": "sf",
             "required": "True"
@@ -33,7 +33,7 @@
             "description": "opus",
             "required": "True"
         },
-        "UPLOAD_AS_DOC": 
+        "UPLOAD_AS_DOC": {
             "description": "0",
             "required": "True"
         },
@@ -46,15 +46,15 @@
             "required": "True"
         },
         "RESOLUTION": {
-            "description": "480",
+            "description": "",
             "required": "True"
         },
         "PRESET": {
-            "description": "vf",
+            "description": "",
             "required": "True"
         },
         "CRF": {
-            "description": "30",
+            "description": "",
             "required": "True"
         }
   },
