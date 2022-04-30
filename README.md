@@ -40,7 +40,7 @@ Deploy your bot on `Heroku`
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/royal78/ffmpeg-videoencoder/)
 
 Deploy your bot on `Oketo`
-[![Deploy](https://www.cloud.oketo.com/deploy/button.svg)](https://cloud.okteto.com/)
+[![Deploy](https://www.cloud.okteto.com/deploy/button.svg)](https://cloud.okteto.com/)
 
 ```
 pip3 install --no-cache-dir -r requirements.txt
