@@ -1,10 +1,6 @@
 # VideoEncoderBot
- a telegram bot for compressing/encoding videos in h264 format.
-<p align="center">
-  <img src="./LOCAL/Wavy_Lst-14_Single-06.jpg" alt="VideoEncoder poster">
-</p>
-<h1 align="center">
- 
+ a telegram bot for encoding videos in h264 format.
+
 
 ### Configuration
 Add values in environment variables or add them in [config.env.example](/VideoEncoder/config.env.example) and rename file to `config.env`.
@@ -50,6 +46,7 @@ bash run.sh
 ### Credits
 - [ShannonScott](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://gist.github.com/ShannonScott/6d807fc59bfa0356eee64fad66f9d9a8)
 - [viperadnan-git](https://github.com/viperadnan-git/video-encoder-bot) for queue etc.
+-[Nikhil_Sequeira](https://gist.github.com/ShannonScott) for [transcode_h265.py](https://github.com/NikhilBakugo/VideoEncoder-bot)
 
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
