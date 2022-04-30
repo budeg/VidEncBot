@@ -36,6 +36,8 @@ To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg
 ### Deploy
 Deploy your bot on `Heroku`
   
+### Deploy Now:
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/royal78/ffmpeg-videoencoder/)
 
 
 ```
