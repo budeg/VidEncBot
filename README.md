@@ -28,12 +28,11 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 
 ### Deploy Now:
 
-### Deploy
-Deploy your bot on `Heroku`
-  
+### Deploy your bot on `Heroku`
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NikhilBakugo/Video-Encoder-Bot)
 
-Deploy your bot on `Okteto`
+### Deploy your bot on `Okteto`
   
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
 
