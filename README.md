@@ -26,11 +26,11 @@ Add values in environment variables or add them in [config.env.example](/VideoEn
 - `DOWNLOAD_DIR` - VideoEncoder/utils/downloads/
 - `ENCODE_DIR` - VideoEncoder/utils/encodes/
 
+### Deploy Now:
 
 ### Deploy
 Deploy your bot on `Heroku`
   
-### Deploy Now:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/NikhilBakugo/Video-Encoder-Bot)
 
 Deploy your bot on `Okteto`
