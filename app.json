@@ -18,12 +18,43 @@
             "description": "",
             "required": "False"
         },
+        "OWNER_ID": {
+            "description": "Bot Owner UserID"
+        },
         "PRESET": {
             "description": "sf",
             "required": "True"
         },
+        "TUNE": {
+            "description": "film",
+            "required": "True"
+        },
+        "AUDIO": {
+            "description": "opus",
+            "required": "True"
+        },
+        "UPLOAD_AS_DOC": {
+            "description": "0",
+            "required": "True"
+        },
         "DOWNLOAD_DIR": {
             "description": "VideoEncoder/utils/downloads/",
+            "required": "True"
+        },
+        "ENCODE_DIR": {
+            "description": "VideoEncoder/utils/encodes/",
+            "required": "True"
+        },
+        "RESOLUTION": {
+            "description": "",
+            "required": "True"
+        },
+        "PRESET": {
+            "description": "",
+            "required": "True"
+        },
+        "CRF": {
+            "description": "",
             "required": "True"
         }
   },
