@@ -86,9 +86,9 @@ async def encode(filepath):
     else:
         audio_opts = '-map 0:a?'
         if a == 'aac':
-            audio_opts += ' -c:a aac -b:a 128k'
+            audio_opts += ' -c:a aac -b:a 40k'
         elif a == 'opus':
-            audio_opts += ' -c:a libopus -vbr on -b:a 96k'
+            audio_opts += ' -c:a libopus -vbr on -b:a 35k'
         elif a == 'copy':
             audio_opts += ' -c:a copy'
 
@@ -100,7 +100,7 @@ async def encode(filepath):
     elif r == '720':
         resolution = '-vf scale=1280:-2'
     elif r == '480':
-        resolution = '-vf scale=720:-2'
+        resolution = '-vf scale=854:-2'
     elif r == '360':
         resolution = '-vf scale=360:-2'
     else:
